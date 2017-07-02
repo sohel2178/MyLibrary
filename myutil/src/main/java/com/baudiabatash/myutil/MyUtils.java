@@ -544,6 +544,7 @@ public class MyUtils {
 
     public static boolean isNetworkConnected(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        Log.d("UUU","UUU");
         return cm.getActiveNetworkInfo() != null;
     }
 
