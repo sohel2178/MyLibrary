@@ -415,6 +415,18 @@ public class MyUtils {
         return width;
     }
 
+    public static int getScreenHeight(Context context){
+
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+        DisplayMetrics metrics = new DisplayMetrics();
+        display.getMetrics(metrics);
+        int width = metrics.heightPixels;
+        //int height = metrics.heightPixels;
+
+        return width;
+    }
+
     public static int convertPixelsToDp(int px, Context context){
         Resources resources = context.getResources();
         DisplayMetrics metrics = resources.getDisplayMetrics();
@@ -544,7 +556,6 @@ public class MyUtils {
 
     public static boolean isNetworkConnected(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        Log.d("UUU","UUU");
         return cm.getActiveNetworkInfo() != null;
     }
 
