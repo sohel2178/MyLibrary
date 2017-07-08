@@ -10,5 +10,8 @@ allprojects {
 		}
 	}
   
- Compile dependency
+ Compile dependency:
+ 
+ 
+ 
  compile 'com.github.sohel2178:MyLibrary:0.1.1'
