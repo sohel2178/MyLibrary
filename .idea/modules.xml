@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyLibrary.iml" filepath="$PROJECT_DIR$/MyLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/camera2api/camera2api.iml" filepath="$PROJECT_DIR$/camera2api/camera2api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraapi/cameraapi.iml" filepath="$PROJECT_DIR$/cameraapi/cameraapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageutil/imageutil.iml" filepath="$PROJECT_DIR$/imageutil/imageutil.iml" />
       <module fileurl="file://$PROJECT_DIR$/myutil/myutil.iml" filepath="$PROJECT_DIR$/myutil/myutil.iml" />
     </modules>
